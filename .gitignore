@@ -32,3 +32,11 @@
 *.app
 
 *.plist 
+
+.vscode/
+01_hola_mundo/holamundo
+01_hola_mundo/holamundo.dSYM/
+02_cout/01_cout_ejemplos
+02_cout/ejemplo
+03_cout_cin/01_cout_chars
+03_cout_cin/02_cin_ejem
