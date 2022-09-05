@@ -7,4 +7,4 @@ int main () {
     y = 3*x*x - 2*x + 9;
     std::cout << "y = " << y << std::endl;
     return 0;
-}
+  }
