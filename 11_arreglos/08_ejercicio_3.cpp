@@ -19,5 +19,10 @@ int main () {
   for (int k=0; k< 10; k++) {
     arreglo2[9-k] = arreglo1[k];
   }
+  
+  for(int a: arreglo2) {
+    cout << a << endl;
+  }
+  
   return 0;  
 }
