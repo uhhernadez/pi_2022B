@@ -24,14 +24,14 @@ void MostrarGato(Gato g) {
   cout << "Nombre: " <<g.nombre<< " edad: "<< g.edad << " color: " << g.color << endl;
 }
 
-void Maulla(Gato &g) {
+void Maullar(Gato &g) {
   if (g.edad < 12) {
     cout << "Miiiiaaau" << endl;
   } else {
     cout << "           __..--''``---....___   _..._    __         " << endl;
     cout << " /// //_.-'    .-/ ;  `        ``<._  ``.''_ `. / // /" << endl;
-    cout << "///_.-' _..--.'_    \\                    `( ) ) // // " << endl;
-    cout << "/ (_..-' // (< _     ;_..__               ; `' / ///  " << endl;
+    cout << "///_.-' _..--.'X    \\                    `( ) ) // // " << endl;
+    cout << "/ (_..-' // (< X     ;_..__               ; `' / ///  " << endl;
     cout << " / // // //  `-._,_)' // / ``--...____..-' /// / //   " << endl;
   }
 }
@@ -48,7 +48,8 @@ int main () {
   MostrarGato(gato1);
   MostrarGato(gato2);
   MostrarGato(gato3);
-  Envejecer(gato1, 9.5);
+  Maullar(gato1);
+  Envejecer(gato1, 14.5);
   MostrarGato(gato1);
-  Maulla(gato1);
+  Maullar(gato1);
 }
